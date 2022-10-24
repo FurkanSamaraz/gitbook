@@ -73,7 +73,7 @@ func main() {
 
 Sqlite tablomuz bu şekilde gözükmelidir. Gorm otomatik olarak oluşturma, güncelleme ve silinme tarihlerini belirten sütunlar eklemektedir.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Tablomuza bir veri daha ekleyelim tablo içerisinde id ile arama yapabilmek için "First()" fonksiyonunu kullanacağız sonucu terminalden alalım.&#x20;
 
@@ -238,8 +238,8 @@ func main() {
 
 İlk olarak sqlite ile bağlantı kuruyoruz. AutoMigrate() fonksiyonu ile iki tablomuzuda oluşturuyoruz. Daha sonra "Model(\&Category{})" ile ana tablomuzu seçtik ana tablomuza ilişkili olan tablomuzu da "Related(\&Product{})" olarak ekliyoruz. Product içerisine A,B,C şeklinde bir kaç değer giriyoruz. Bu verilerin tabloya ekleyeceğiz ama hangi Department ile ilişkili olucağını da belirtmemiz gerekmektedir aksi takdirde "CategoryID" si 0 olacaktır. Category içerisinde bağlı olduğu Department 'ı da seçerek ve bunları bir bütün olarak create tabir tutuyoruz.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
